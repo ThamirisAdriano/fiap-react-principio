@@ -2,8 +2,8 @@ import { useState } from 'react';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import MainContent from './components/Main/MainContent';
-import AddTask from './components/pages/AddTask/AddTask';
-import TaskList from './components/pages/TaskList/TaskList';
+import AddTask from './pages/AddTask/AddTask';
+import TaskList from './pages/TaskList/TaskList';
 import './App.css';
 
 interface Task {
