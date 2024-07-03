@@ -3,8 +3,8 @@ import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import MainContent from './components/Main/MainContent';
 import './App.css';
-import AddTask from './components/pages/AddTask/AddTask';
-import TaskList from './components/pages/TaskList/TaskList';
+import AddTask from './pages/AddTask/AddTask';
+import TaskList from './pages/TaskList/TaskList';
 
 interface Task {
   id: number;
