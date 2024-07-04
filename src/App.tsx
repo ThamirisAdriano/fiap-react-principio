@@ -3,8 +3,8 @@ import api from './api'; // Importando a configuração do Axios
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import MainContent from './components/Main/MainContent';
-import AddTask from './components/pages/AddTask/AddTask';
-import TaskList from './components/pages/TaskList/TaskList';
+import AddTask from './pages/AddTask/AddTask';
+import TaskList from './pages/TaskList/TaskList';
 import taskReducer from './reducers/taskReducer';
 import './App.css';
 
